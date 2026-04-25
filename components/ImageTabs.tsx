@@ -35,6 +35,7 @@ const ImageTabs = () => {
                 alt="organize applications"
                 width={1200}
                 height={800}
+                loading="eager"
               />
             ) : null}
             {activeTab === "hired" ? (
